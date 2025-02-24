@@ -1,0 +1,132 @@
+
+
+body {
+    background: url('image1.jpeg');
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+.quiz {
+    margin: auto;
+    margin-top: 29px;
+    padding: 20px;
+    /* background-color:lightpink; */
+    width: 70%;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    /* backdrop-filter: blur(10px); */
+    border: 1px solid rgb(255, 255, 255, .2);
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* align-content: center; */
+    flex-direction: column;
+    
+    /* margin-left: 170px; */
+   
+}
+
+.quiz h3 {
+    font-family:'Times New Roman', Times, serif;
+    transform: translateY(10px);
+    /* transform: translateX(10px); */
+    font-size: 0.8rem;
+    color:bisque;
+}
+
+.quiz ul li {
+display: flex;
+flex-direction: column;
+/* box-sizing: border-box; */
+border: 2px solid rgb(255, 255, 255, .2);
+color:aliceblue;
+margin-top: 10px;
+/* gap: 10px; */
+padding: 5px;
+width: 280px;
+/* background: transparent; */
+text-align:justify;
+border-radius: 10px;
+/* background-color: beige; */
+transform: translateX(5px);
+transform: translateY(-10px);
+padding-left: 10px;
+/* border-radius: 10px; */
+font-family:Times New Roman;
+font-size: 13px;
+
+}
+
+.quiz ul {
+    margin-bottom: 20px;
+    /* background-color: aqua; */
+}
+
+.quiz button {
+    width: 27%;
+    margin-left: 30px;
+    /* font-family:rgia, Times, 'Times New Roman', serif; */
+    font-size: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    transform: translateY(-7px);
+
+}
+
+.quiz ul li:hover {
+    cursor: pointer;
+}
+
+.quiz button:hover {
+    background-color: greenyellow;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.quiz p {
+    /* text-align: center; */
+    color:burlywood;
+    font-size: 10px;
+    margin-left: 30px;
+    transform: translateY(-10px);
+}
+
+.select {
+    background-color:lightslategray;
+    color: black;
+}
+
+.scorecard {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background: transparent;
+    
+    /* /* background-color: transparent; */
+    backdrop-filter: blur(7px); 
+    width: 50%;
+    height: 220px;
+    backdrop-filter: blur('8px');
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    border: 1px dotted rgb(255, 255, 255, .2);
+    align-items: center;
+    color: azure;
+    flex-direction: column;
+    transform: translateX(150px);
+}
+
+
+.scorecard p {
+    transform: translateY(-10px);
+}
+@keyframes anim {
+    100% {
+       filter: hue-rotate(360deg);
+       
+       /* transform: translate(20px,0); */
+    }
+}
