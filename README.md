@@ -32,7 +32,7 @@ QuizApp is a ReactJS-based web application that allows users to take assessments
 - **CSS**: For styling the application.
 
 
-<img width="1231" alt="Screenshot 2025-01-06 at 12 35 45 PM" src="https://github.com/user-attachments/assets/0ad51989-11ac-444e-b4b7-b0721099a92b" />
+<img width="1231" alt="Screenshot 2025-01-06 at 12 35 45 PM" src="https://github.com/Arulmani-12/QuizApp/blob/main/src/download.jpg" />
 
 ## 📋 How to Run the Project
 
